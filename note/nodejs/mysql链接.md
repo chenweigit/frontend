@@ -8,9 +8,9 @@
    以下是示意图 
 	![你的工作空间](../../workspace-path.png)
 	![mysql下载](../../img/node-img/nodejs：下载mysql模块.png)
-   以上都是准备工作，下面介绍怎么使用mysql 模块
+
+**以上都是准备工作，下面介绍怎么使用mysql 模块**
 ## 使用mysql 模块建立链接，查询数据
-	`
 	/* 加载mysql 模块，如果控制台报 不能找到mysql模块，
  	   你的mysql模块没有成功下载或者是路径不对
    	 */
@@ -43,7 +43,5 @@
 	        connection.end();
 	    }
 	);
-
-	`
 
  以上是一个简单的demo , 第三方mysql 模块可以参考github 提供开源的项目 [https://github.com/felixge/node-mysql](https://github.com/felixge/node-mysql)
